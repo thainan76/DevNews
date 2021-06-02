@@ -17,7 +17,7 @@ class HomeController extends Controller
         Session::put('message', '');
 
         $categorias = Categoria::all();
-        $noticias = Noticia::orderBy('id', 'DESC')->get();
+        $noticias = Noticia::orderBy('id', 'DESC')->limit(6)->get();
 
         if (count($noticias) == 0) {
             $noticias = [];

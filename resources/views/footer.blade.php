@@ -6,7 +6,7 @@
     >
         <!-- Left -->
         <div class="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
+            <span>Ainda não tem uma assinatura do Dev News? <span><a href="#!" class="text-decoration" style="color: black;font-weight: bold">Assine</a></span> </span>
         </div>
         <!-- Left -->
 
@@ -44,7 +44,7 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <!-- Content -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>LOGO
+                        <i class="fas fa-gem me-3"></i>Dev News
                     </h6>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at viverra leo.
@@ -57,19 +57,19 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Stack
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">PHP</a>
+                        <a href="#!" class="text-reset text-decoration ">PHP</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">LARAVEL</a>
+                        <a href="#!" class="text-reset text-decoration " >LARAVEL</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">CSS</a>
+                        <a href="#!" class="text-reset text-decoration ">CSS</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">JAVASCRIPT</a>
+                        <a href="#!" class="text-reset text-decoration ">JAVASCRIPT</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -78,13 +78,13 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
+                        MENU
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">CADASTRAR NOTICIAS</a>
+                        <a href="#!" class="text-reset text-decoration ">CADASTRAR NOTICIAS</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">EXIBIR NOTICIAS</a>
+                        <a href="#!" class="text-reset text-decoration ">EXIBIR NOTICIAS</a>
                     </p>
 
                 </div>
@@ -113,8 +113,13 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://thainanprado.com.br/">ThainanPrado.com</a>
+        <a class="text-reset fw-bold text-decoration " href="https://thainanprado.com.br/">ThainanPrado.com</a>
     </div>
     <!-- Copyright -->
 </footer>
 <!-- Footer -->
+<style>
+    .text-decoration {
+        text-decoration: none;
+    }
+</style>
